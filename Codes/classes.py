@@ -80,7 +80,7 @@ class Railstatus:
     def __init__(self,number):
         self.number=number
         #self.apikey="b5eee7839096d6a69e44dec6940e2742"
-        self.link="https://indianrailapi.com/api/v2/livetrainstatus/apikey/b5eee7839096d6a69e44dec6940e2742/trainnumber/{}/date/{}/".format(self.number,datetime.today().strftime('%Y%m%d'))
+        self.link="https://indianrailapi.com/api/v2/livetrainstatus/apikey/76c7973d7e89f474e241618143826f5a/trainnumber/{}/date/{}/".format(self.number,datetime.today().strftime('%Y%m%d'))
         #self.todaydate=date.today()
         #self.para={"apiKey":self.apikey,"trainnumber":self.number,"date":self.todaydate}
         
